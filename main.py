@@ -21,6 +21,7 @@ def main():
             user_list.append(user_guess)
 
         if simons_list == user_list:
+
             game_round += 1
         else:
             playing = False
